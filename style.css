@@ -1,2 +1,21 @@
-/* Dine styles her */
-article {}
+:root {
+  background: #e3edfb;
+
+  --color-icon: #0b3a67;
+
+  --image-width: 8rem;
+  --card-padding: 1rem;
+  --font-heading: 1.75rem;
+
+  /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
+  --hide-overlay: 0;
+}
+
+/* Begynd her... */
+
+.artikel > * + * {
+  margin-top: var(--flow-space, 0.5rlh);
+}
+h2 {
+  --flow-space: ;
+}
